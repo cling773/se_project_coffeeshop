@@ -124,15 +124,17 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-
   line-height: 30px;
 }
 
-.recipies__videos {
+.recipes__videos {
   display: flex;
   justify-content: center;
   gap: 100px;
   list-style-type: none;
+}
+.recipes__iframe {
+  border: none;
 }
 
 .recipes__video-captions {
